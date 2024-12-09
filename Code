@@ -1,52 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    <script src="https://kit.fontawesome.com/13a2973d95.js" crossorigin="anonymous"></script>
+    <script src=".js"></script>
+    <script src="neshto.js"></script>
+    <title>Home-CF</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="лого1.png">
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+        /* style za body */
+        .content {
+            max-width: 1000px;
+            margin: auto;
+        }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
+        /* Header */
+        .header {
+            padding: 80px;
+            text-align: center;
+            background: #04a7e7;
+            color: white;
+        }
+
+            /* zaglavie*/
+            .header h1 {
+                font-size: 40px;
+                animation: glow 2s ease-in-out infinite alternate
+            }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(193, 151, 189), 0 0 30px rgb(125, 88, 125) 0 40px rgb(163, 133, 183), 0 0 50px rgb(163, 133, 183) 0 60px rgb(130, 87, 143), 0 0 60px rgb(113, 68, 121) 0 0 70px rgb(87, 54, 91), 0 0 80px rgb(87, 54, 91);
+            }
+
+            100% {
+                text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0), 0 0 40px rgb(87, 54, 91), 0 0 50px rgb(87, 54, 91), 0 0 60px rgb(87, 54, 91), 0 0 70px rgb(87, 54, 91), 0 0 80px rgb(87, 54, 91);
+            }
+        }
+
+
+        /* navbar styla */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            /* style za linkove v navbara */
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+
+
+                .navbar a.right {
+                    float: right;
+                }
+
+
+                .navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+        /* style za Column containera */
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+
+        .side {
+            -ms-flex: 30%;
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* syle za Main columna */
+        .main {
+            -ms-flex: 70%;
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+
+        /* style za Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
 </head>
+
 <body>
+  <div class="content">
 
-<div class="topnav">
-  <a class="active" href="#About:">About:</a>
-  <a href="#Phones">Phones</a>
-  <a href="#Laptops">Laptops</a>
-  <a href="#Accessories">Accessories</a>
+    <div class="header"> 
+      <h1>Tech-Insight</h1>
+    </div>
+
+    <div class="navbar">
+    <a href="index.html" target="_self"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="news.html" target="_self" ><i class="fa-solid fa-newspaper"></i>  Phones</a>
+    <a href="events.html" target="_self"><i class="fa-solid fa-calendar-days"></i>  Laptops</a>
+    <a href="team.html" target="_self"><i class="fa-solid fa-user-secret"></i>  Accessories</a>
+    <a href="contactUs.html" target="_self" class="right"><i class="fa-solid fa-envelope"></i>  Contact us</a>
+    </div>
+
+    <div class="row">
+      <div class="side">
+        <h2>About Us</h2>
+        <h4>CodeFusion</h4>
+        <div class="fakeimg">
+          <img src="images/лого1.png" alt="logo" width="200">
+        </div>
+        <p>Това е сайт, от който можете да закупите различни видове технологични продукти.</p>
+        <p>ВНИМАНИЕ! Ние доставяме само до Европа!</p>
+      </div>
+
+      <div class="main">
+        <h2>Latest Products</h2>
+        <h3>New Logitech mousepad</h3>
+        <div>
+          <img src="images/adi.png" width="600" height="200">
+        </div>
+        <p>Днес тя се смята за първия програмист в историята, след като написва алгоритъм за намиране на числата на Бернули в такава форма, че да бъде разчетена от машината (т.е. компютърна програма).За разлика от мнозина, включително и самия Бабидж, които отбелязват само полезността на машината за математически изчисления, Ада Лъвлейс успява да прозре отвъд това и да предугади потенциала на компютрите.</p>
+        <br>
+        <h3>Доналд Кнут</h3>
+        <h5>10 януари 1938 г. (86 г.)</h5>
+        <div>
+          <img src="images/Doni.png" width="600" height="200">
+        </div>
+        <p>Доналд Кнут е известен като „бащата на програмирането” заради изключителния му принос за развитието на теорията на програмирането. Той създава WEB и CWEB системите за компютърно програмиране, предназначени за насърчаване и улесняване на грамотното програмиране. </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h5>© 2024 - ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО КОМПЮТЪРНО ПРОГРАМИРАНЕ И ИНОВАЦИИ</h5>
+    </div>
 </div>
-
-<div style="padding-left:16px">
-  <h2>About:</h2>
-  <p>This is a website, from wich you can buy various tech products like phones, laptops etc. We focus on having reasonable prices, and making the customers happy. Have fun shopping!</p>
-  <p>Note! We can only deliver in Europe!</p>
-</div>
-
 </body>
 </html>
