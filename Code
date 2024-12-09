@@ -142,9 +142,9 @@
 
     <div class="navbar">
       <a href="index.html" target="_self"><i class="fa-solid fa-house"></i>  Home</a>
-      <a href="phones.html" target="_self" ><i class="fa-solid fa-newspaper"></i>  News</a>
-      <a href="laptos.html" target="_self"><i class="fa-solid fa-calendar-days"></i>  Events</a>
-      <a href="accessories.html" target="_self"><i class="fa-solid fa-user-secret"></i>  Our Team</a>
+      <a href="phones.html" target="_self" ><i class="fa-solid fa-newspaper"></i>  Phones</a>
+      <a href="laptos.html" target="_self"><i class="fa-solid fa-calendar-days"></i>  Laptops</a>
+      <a href="accessories.html" target="_self"><i class="fa-solid fa-user-secret"></i> Accessories</a>
      
     </div>
 
@@ -152,35 +152,36 @@
 
       <div class="side">
         <h2>Phones</h2>
-
+        <p>Here are the most top-quality phones that we sell!</p>
        
-        </div>
+        </div> 
         
      
     
       <div class="main">
-        //produkt
-        <h2></h2>
+  
+        <h2>Iphone 16</h2>
    
-        <img src="images/svetovno.png" width="600" height="200">
+        <img src="iphone16.jpg" width="600" height="200">
 
-        //opisane
-        <p></p>
+        
+        <p>IOS 18, 1TB space, 48MP camera quality, price-2999bgn.</p>
+         /Iphone16-"Great phone, takes incredible pictures, but is really expensive 7/10!"
+    
 
-        //produkta
-
-        <h2></h2>
-        <img src="images/smBurgas.jpg" width="600" height="200">
-        <p></p>
-       
+        <h2>Samsung S24</h2>
+        <img src="s24.jpg" width="600" height="200">
+        <p> Android 14, 512GB space, 200MP camera quality, price-2299bgn.</p>
+    /S24-"Probably the best phone ever made, the camera is incredible, really worth the price 10/10!"
         <br>
-        //produkt
+  
 
-        <h2></h2>
+        <h2>Redmi Note13</h2>
       
-        <img src="images/sequirity.png" width="600" height="200">
+        <img src="note13.png" width="600" height="200">
 
-        <p></p>
+        <p>Android 13, 480GB space, 68MP camera quality, price-899bgn.</p>
+        /Note13-"very good everyday phone, overall 9/10 would reccomend!"
         <br>
       
       </div>
@@ -193,3 +194,7 @@
   </div>
 </body>
 </html>
+
+
+
+
