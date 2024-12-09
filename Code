@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://kit.fontawesome.com/13a2973d95.js" crossorigin="anonymous"></script>
-    <script src=".js"></script>
-    <script src="neshto.js"></script>
     <title>Home-CF</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -133,43 +130,39 @@
     </div>
 
     <div class="navbar">
-    <a href="index.html" target="_self"><i class="fa-solid fa-house"></i> Home</a>
-    <a href="news.html" target="_self" ><i class="fa-solid fa-newspaper"></i>  Phones</a>
+    <a href="phones.html" target="_self"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="phones.html" target="_self" ><i class="fa-solid fa-newspaper"></i>  Phones</a>
     <a href="events.html" target="_self"><i class="fa-solid fa-calendar-days"></i>  Laptops</a>
     <a href="team.html" target="_self"><i class="fa-solid fa-user-secret"></i>  Accessories</a>
-    <a href="contactUs.html" target="_self" class="right"><i class="fa-solid fa-envelope"></i>  Contact us</a>
     </div>
 
     <div class="row">
       <div class="side">
         <h2>About Us</h2>
-        <h4>CodeFusion</h4>
+        <h4>Tech-Insight</h4>
         <div class="fakeimg">
-          <img src="images/лого1.png" alt="logo" width="200">
+          <img src="logo.png" alt="logo" width="200">
         </div>
-        <p>Това е сайт, от който можете да закупите различни видове технологични продукти.</p>
-        <p>ВНИМАНИЕ! Ние доставяме само до Европа!</p>
+        <p>This is a site where you can buy various types of tech products for reasonable prices.
+
+        </p>
+        <p>WARNING! We can only deliver things in Europe!</p>
       </div>
 
       <div class="main">
-        <h2>Latest Products</h2>
-        <h3>New Logitech mousepad</h3>
+        <h2>Latest Products!</h2>
+        <h3>!New Logitech mousepad!</h3>
         <div>
-          <img src="images/adi.png" width="600" height="200">
-        </div>
-        <p>Днес тя се смята за първия програмист в историята, след като написва алгоритъм за намиране на числата на Бернули в такава форма, че да бъде разчетена от машината (т.е. компютърна програма).За разлика от мнозина, включително и самия Бабидж, които отбелязват само полезността на машината за математически изчисления, Ада Лъвлейс успява да прозре отвъд това и да предугади потенциала на компютрите.</p>
-        <br>
-        <h3>Доналд Кнут</h3>
-        <h5>10 януари 1938 г. (86 г.)</h5>
-        <div>
-          <img src="images/Doni.png" width="600" height="200">
-        </div>
-        <p>Доналд Кнут е известен като „бащата на програмирането” заради изключителния му принос за развитието на теорията на програмирането. Той създава WEB и CWEB системите за компютърно програмиране, предназначени за насърчаване и улесняване на грамотното програмиране. </p>
-      </div>
-    </div>
+          <img src="logipad.jpg" width="600" height="200">
+          <h3>   </h3>
+          <div> 
+            <h3>!Asus laptop!</h3>
+            <div>
+              <img src="asus.jpg" width="600" height="200">
 
+    </div>
     <div class="footer">
-      <h5>© 2024 - ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО КОМПЮТЪРНО ПРОГРАМИРАНЕ И ИНОВАЦИИ</h5>
+      <h5>© 2024 - TECH-INSIGHT™</h5>
     </div>
 </div>
 </body>
