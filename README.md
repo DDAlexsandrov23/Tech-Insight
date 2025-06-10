@@ -7,11 +7,11 @@
 <img src="project/public/logo.png" alt="Logo" width="1000" height="775">
 <br>
 
-<!-- TABLE OF CONTENTS -->
+<!-- 📃TABLE OF CONTENTS -->
 <h2 id="table-of-contents">Table of Contents</h2>
 
 <details open="open">
-    <summary>📃Table of Contents</summary>
+    <summary>Table of Contents</summary>
     <li><a href="#about-the-project">  The Project</a></li>
     <li><a href="#used-technologies">  Technologies</a></li>
     <li><a href="#download">    Download</a></li>
