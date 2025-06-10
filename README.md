@@ -7,7 +7,7 @@
 <img src="project/public/logo.png" alt="Logo" width="1000" height="775">
 <br>
 
-<!-- 📃TABLE OF CONTENTS -->
+## 📃TABLE OF CONTENTS 
 <h2 id="table-of-contents">Table of Contents</h2>
 
 <details open="open">
@@ -19,7 +19,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- 💡ABOUT THE PROJECT -->
+## 💡ABOUT THE PROJECT 
 <h2 id="about-the-project">About The Project</h2>
 
 <p align="justify">
